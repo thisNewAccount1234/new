@@ -1,0 +1,29 @@
+
+
+install git:
+
+1. open terminal
+2. execute command: sudo apt install git
+3. verify it installed with command: git --version
+
+pull down code:
+
+1. make a new directory, navigate into it in terminal
+2. run git command: git clone https://github.com/thisNewAccount1234/new.git
+3. this will create a subdirectory with the repo in it, navigate into it and run ls command to view contents
+
+set up token:
+
+1. let me know when ready and I will email you the token
+2. run the following command with the "TOKEN" part of it replaced with the token I email you: git remote set-url origin https://thisNewAccount1234:TOKEN@github.com/thisNewAccount1234/new.git
+3. test that you can add, commit, and push
+
+push changes:
+
+1. make a small change, for instance add your name to the bottom of this file and save
+2. in the terminal execute the following commands:
+
+git add .
+git commit -m "test commit"
+git push
+
